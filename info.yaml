@@ -7,7 +7,7 @@ project:
   top_module:   "tt_um_example"
   tiles:        "1x1"
   source_files:
-    - "src/project__ntt.v"
+    - "src/project_ntt.v"
 
 pinout:
   ui[0]: "NTT input bit 0"
