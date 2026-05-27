@@ -1,7 +1,6 @@
-# TinyTapeout project configuration file
 project:
-  title:        "8-Bit NTT-Based PQC Core"
-  description:  "An 8-bit Number Theoretic Transform butterfly unit for Post-Quantum Cryptography. Computes (x * w) mod q with w=3, q=17."
+  title:        "8-Bit NTT PQC Core"
+  description:  "8-bit Number Theoretic Transform butterfly unit for Post-Quantum Cryptography. Computes (x * 3) mod 17."
   author:       "Bojjireddy Rishika"
   language:     "Verilog"
   clock_hz:     50000000
@@ -36,5 +35,4 @@ pinout:
   uio[6]: "Unused"
   uio[7]: "Unused"
 
-# Do not change!
 yaml_version: 6
